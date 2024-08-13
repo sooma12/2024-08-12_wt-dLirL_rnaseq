@@ -16,3 +16,14 @@ Files were gunzipped.
 
 FastQC was used to check read quality and verify adapter trimming.
 
+## Alignment
+
+Bowtie2-build was run using parameters in config for 17978-mff genome, including plasmids.
+
+Constructed sample sheet using script 2.  Afterwards, manually adjusted sample names for MSA9, 11, and 13 to append _dlirL to each for ease of processing later.
+
+Modifications were made to bowtie2 array script as follows:
+
+1. --array=1-12%13
+2. --ntasks=12
+3. 
