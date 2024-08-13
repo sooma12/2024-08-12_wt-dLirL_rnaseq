@@ -24,6 +24,9 @@ Constructed sample sheet using script 2.  Afterwards, manually adjusted sample n
 
 Modifications were made to bowtie2 array script as follows:
 
-1. --array=1-12%13
-2. --ntasks=12
-3. 
+1. --array=1-6%7
+2. --ntasks=6
+3. --output=/work/geisingerlab/Mark/rnaSeq/2024-08-12_wt-dLirL_rnaseq/logs/%x-%A-%a.log 
+4. --error=/work/geisingerlab/Mark/rnaSeq/2024-08-12_wt-dLirL_rnaseq/logs/%x-%A-%a.err 
+5. --mail-user=soo.m@northeastern.edu
+
