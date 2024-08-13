@@ -4,8 +4,8 @@
 #SBATCH --time=02:00:00
 #SBATCH -N 1
 #SBATCH -n 2
-#SBATCH --output=/work/geisingerlab/Mark/rnaSeq/2024-08-12_wt-dLirL_rnaseq/%x-%j.log
-#SBATCH --error=/work/geisingerlab/Mark/rnaSeq/2024-08-12_wt-dLirL_rnaseq/%x-%j.err
+#SBATCH --output=/work/geisingerlab/Mark/rnaSeq/2024-08-12_wt-dLirL_rnaseq/logs/%x-%j.log
+#SBATCH --error=/work/geisingerlab/Mark/rnaSeq/2024-08-12_wt-dLirL_rnaseq/logs/%x-%j.err
 #SBATCH --mail-type=END
 #SBATCH --mail-user=soo.m@northeastern.edu
 
